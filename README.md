@@ -13,6 +13,9 @@ First you need to compile the scource code once.
 
 - Compile the source code using comman
 ``` gcc main.c -o main.exe ```
+if you compiled using ``` gcc main.c ``` then run it using 
+```<complied file nam> <files-to-be-delted>```
+
 
 
 - To Delete file or files stored on system you need to run following commmand.
