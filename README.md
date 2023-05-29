@@ -14,12 +14,12 @@ First you need to compile the scource code once.
 - Compile the source code using comman
 ``` gcc main.c -o main.exe ```
 if you compiled using ``` gcc main.c ``` then run it using 
-```<complied file nam> <files-to-be-delted>```
+```<complied file name> <files-to-be-delted>```
 
 
 
 - To Delete file or files stored on system you need to run following commmand.
- ```.\main.exe <file-name1> <file-name2> ... <file-name3> ```
+ ```.\main.exe <file-name1> <file-name2> ... <file-name-n> ```
  File name is name of file with its absoulte path.
 
 - If for any reason program is unable to work on file (may be file is opened anywhere else).
@@ -34,12 +34,12 @@ if you compiled using ``` gcc main.c ``` then run it using
  
 ## Working of Software
 
-As **data can never be deleted from memory** we only delete its referrence only. 
+As **data can never be deleted from memory** we only delete its referrence from memory. 
 Various malicious software and hackers take advantage of this fact and can retrive your deleted data (this is happened in past many times) so 
-this software is designed to first override your data that you want to delete and then delete its reference from memory.
+this software is designed to first override your data that you want to delete and then delete its reference from memory in order to free up space.
 After deleting data using this app if anyone try to retrive data he/she will only get overrided data and your privacy will protected.
 
 - This Software is build in pure C programming language.
-- No other libray other than ```stdio.h``` is used.
+- No libray other than ```stdio.h``` is used.
 
  
