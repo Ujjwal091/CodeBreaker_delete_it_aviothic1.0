@@ -16,13 +16,22 @@ First you need to compile the scource code once.
 
 
 - To Delete file or files stored on system you need to run following commmand.
- ```.\main.exe <file-path1> <file-path2> ... <file-path3> ```
- File path should be absolute.
+ ```.\main.exe <file-name1> <file-name2> ... <file-name3> ```
+ File name is name of file with its absoulte path.
+ 
+ - After succesfully deleting a file it will show
+ ``` <file-name> Deleted sucessfully```
+ 
+ - If due to any reason it is unable to delete file, then it will show.
+ ``` Unable to delete the file <file-name> ```
  
 ## Working of Software
 
 As **data can never be deleted from memory** we only delete its referrence only. 
 Various malicious software and hackers take advantage of this fact and can retrive your deleted data (this is happened in past many times) so 
 this software is designed to first override your data that you want to delete and then delete its reference from memory.
-After deleting data using this app if anyone try to retrive data he/she will only get overrided data and your privacy will be protected.
+After deleting data using this app if anyone try to retrive data he/she will only get overrided data and your privacy will protected.
+
+- This Software is build in pure C programming language.
+
  
