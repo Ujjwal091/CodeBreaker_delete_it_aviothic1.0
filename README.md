@@ -33,5 +33,6 @@ this software is designed to first override your data that you want to delete an
 After deleting data using this app if anyone try to retrive data he/she will only get overrided data and your privacy will protected.
 
 - This Software is build in pure C programming language.
+- No other libray other than ```stdio.h``` is used.
 
  
