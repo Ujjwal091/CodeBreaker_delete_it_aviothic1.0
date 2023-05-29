@@ -18,6 +18,10 @@ First you need to compile the scource code once.
 - To Delete file or files stored on system you need to run following commmand.
  ```.\main.exe <file-name1> <file-name2> ... <file-name3> ```
  File name is name of file with its absoulte path.
+
+- If for any reason program is unable to work on file (may be file is opened anywhere else).
+ Then you will recieve messsage like this.
+```Can not open file```
  
  - After succesfully deleting a file it will show
  ``` <file-name> Deleted sucessfully```
